@@ -1,4 +1,4 @@
-# Aegro-App
+# Cattleverse-App
 
 Build for Smart india hackathon.
 
