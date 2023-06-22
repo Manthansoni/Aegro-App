@@ -6,4 +6,4 @@ It is specially designed for small farmers. They can use these app to manage the
 
 Demo :
 
-[![Watch the video]](Cattleverse.mp4)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](Cattleverse.mp4)
