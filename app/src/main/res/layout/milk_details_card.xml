@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/liveStockCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="19-21-1122"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/litre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15L"
+                android:textSize="16sp"
+                android:padding="15dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/date"
+                app:layout_constraintEnd_toStartOf="@+id/dropDownArrow"
+                app:layout_constraintStart_toEndOf="@+id/date" />
+
+            <ImageView
+                android:id="@+id/dropDownArrow"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="dropDownArrow"
+                android:src="@drawable/ic_arrowdown"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/expandableMilkCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/litre">
+
+                <TextView
+                    android:id="@+id/liveStockCardAvatarName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Milk Type:"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/milkType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Cow"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/liveStockCardAvatarName"
+                    app:layout_constraintStart_toEndOf="@+id/liveStockCardAvatarName" />
+
+                <TextView
+                    android:id="@+id/timeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Time"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/milkType"
+                    app:layout_constraintEnd_toStartOf="@+id/time" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="13:12"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/timeLabel"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/milkFatLabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Milk Fat:"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/liveStockCardAvatarName" />
+
+                <TextView
+                    android:id="@+id/milkFat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="4"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/milkFatLabel"
+                    app:layout_constraintStart_toEndOf="@+id/milkFatLabel" />
+
+                <TextView
+                    android:id="@+id/containerLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Container"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/milkFat"
+                    app:layout_constraintEnd_toStartOf="@+id/container" />
+
+                <TextView
+                    android:id="@+id/container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="2"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/containerLabel"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/qualityLabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Quality:"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/milkFatLabel" />
+
+                <TextView
+                    android:id="@+id/quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Great"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/qualityLabel"
+                    app:layout_constraintStart_toEndOf="@+id/qualityLabel" />
+
+                <TextView
+                    android:id="@+id/priceLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Price of 1 Ltr:"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/quality"
+                    app:layout_constraintEnd_toStartOf="@+id/priceOfOneLitre" />
+
+                <TextView
+                    android:id="@+id/priceOfOneLitre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="13:12"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/priceLabel"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/receivedByLabel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Milk Received By:"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qualityLabel" />
+
+                <TextView
+                    android:id="@+id/receivedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Ramesh"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/receivedByLabel"
+                    app:layout_constraintStart_toEndOf="@+id/receivedByLabel" />
+
+                <TextView
+                    android:id="@+id/amountLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Amount"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/receivedByLabel"
+                    app:layout_constraintEnd_toStartOf="@+id/amount" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="232"
+                    android:textSize="16sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/amountLabel"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

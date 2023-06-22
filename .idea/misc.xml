@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HB Designs/Hackathon/aegroms/app/src/main/res/drawable/person.xml" value="0.22552083333333334" />
+        <entry key="..\:/HB Designs/Hackathon/aegroms/app/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/HB Designs/Hackathon/aegroms/app/src/main/res/layout/fragment_profile.xml" value="0.209375" />
+        <entry key="..\:/HB Designs/Hackathon/aegroms/app/src/main/res/layout/livestock_card.xml" value="0.209375" />
+        <entry key="..\:/HB Designs/Hackathon/aegroms/app/src/main/res/layout/qrcode.xml" value="0.1" />
+        <entry key="..\:/New folder/AegroApp/app/src/main/res/layout/activity_main.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/chira/Downloads/Aegro-manthan/app/src/main/res/layout/activity_customer.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/chira/Downloads/Aegro-manthan/app/src/main/res/layout/milk_details_card_customer.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/chira/Downloads/AegroManthan/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/chira/Downloads/AegroManthan/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/drawable/person.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/activity_add_farmer.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/activity_add_live_stock.xml" value="0.16" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/activity_add_milk.xml" value="0.18" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/activity_sahkari.xml" value="0.1" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/fragment_livestock.xml" value="0.12364130434782608" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/fragment_profile.xml" value="0.109375" />
+        <entry key="..\:/Users/krkaushalzz/Android project/Aegro-mantha_dev/app/src/main/res/layout/livestock_card.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_add_farmer.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_add_milk.xml" value="0.2" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_add_village.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_login.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_qr_scanner.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/activity_sahkari.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/fragment_profile.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-hb_dev/app/src/main/res/layout/qrcode.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/drawable/ic_home.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/drawable/location.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_add_farmer.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_add_milk.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_add_village.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_login.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_main.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/activity_sahkari.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/fragment_home.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/fragment_livestock.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/fragment_profile.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/krkaushalzz/AndroidStudioProjects/Aegro-manthan_dev/app/src/main/res/layout/qrcode.xml" value="0.18478260869565216" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
